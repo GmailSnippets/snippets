@@ -37,6 +37,34 @@
   gtag('config', 'UA-120844031-1');
 </script>
 
+<!-- Start of Async Drift Code -->
+<script>
+"use strict";
+
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('746bhhycen2t');
+</script>
+<!-- End of Async Drift Code -->
 
   </head>
 
@@ -53,7 +81,7 @@
         </button>
         <form class="form-inline">
           <!--<a class="btn btn-primary typeform-share button" href="https://gmailsnippets.typeform.com/to/apiAQv" role="button" style="margin-top: 5px; margin-bottom: 5px;" data-mode="popup" target="_blank">Request Beta Access </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>-->
-    <a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/snippets-for-gmail/cgiopcipjkfpcipefmkmnbaghcikpcck" role="button" style="margin-top: 5px; margin-bottom: 5px;">Add to Chrome ($14.99)</a>
+    <a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/snippets-for-gmail/cgiopcipjkfpcipefmkmnbaghcikpcck" role="button" style="margin-top: 5px; margin-bottom: 5px;">Add to Chrome (<del>$24.99</del> $14.99)</a>
   </form>
         <!--<div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -81,14 +109,14 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h1 class="mt-5">Save hours per week<br/>writing email</h1>
-          <p class="lead">Enjoy the flexibility of manually written emails,<br/> with the speed of using pre-written templates.<br/><span style="font-size: 18px"><em>($14.99 lifetime purchase. No recurring subscription fees)</em></span></p>
+          <p class="lead">Enjoy the flexibility of manually written emails,<br/> with the speed of using pre-written templates.<br/><span style="font-size: 18px"><em>(<del>$24.99</del> $14.99 lifetime purchase. No recurring subscription fees)</em></span></p>
           <!--<p class="lead">Create personal, contextual and organic one-to-one emails,<br/>with the speed of using pre-written templates</p>-->
           <img src="vendor/images/snippet.gif">
         </div>
           <div class="col-lg-12 text-center">
            <!-- <a class="btn btn-primary typeform-share button" href="https://gmailsnippets.typeform.com/to/apiAQv" data-mode="popup" target="_blank">Request Beta Access </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>-->
 
-          <a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/snippets-for-gmail/cgiopcipjkfpcipefmkmnbaghcikpcck" role="button" style="margin-top: 5px; margin-bottom: 5px;">Add to Chrome ($14.99)</a>
+          <a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/snippets-for-gmail/cgiopcipjkfpcipefmkmnbaghcikpcck" role="button" style="margin-top: 5px; margin-bottom: 5px;">Add to Chrome (<del>$24.99</del> $14.99)</a>
           <p style="font-size: 18px;"><small><em>(Once you've purchased & installed the Chrome Extension, Snippets will be available to you in Gmail for life)</em></small></p>
           <!--<p><small><em>(Complete a short Beta invite form & we'll send you the Chrome extension download link)</em></small></p>-->
         </div>
@@ -146,7 +174,7 @@
           <p>If you'd like free, early access to try out the app, just request access via the button below, and once approved, we'll send you a link to download the 'Snippets for Gmail' Chrome extension.</p>
           <div class="col-lg-12 text-center">
             <!--<a class="btn btn-primary typeform-share button" href="https://gmailsnippets.typeform.com/to/apiAQv" data-mode="popup" target="_blank">Request Beta Access </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>-->
-          <a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/snippets-for-gmail/cgiopcipjkfpcipefmkmnbaghcikpcck" role="button">Add to Chrome ($14.99)</a>
+          <a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/snippets-for-gmail/cgiopcipjkfpcipefmkmnbaghcikpcck" role="button">Add to Chrome (<del>$24.99</del> $14.99)</a>
         </div>
           
           <p style="font-size: 30px"><strong>How do I use it?</strong></p>
@@ -166,7 +194,7 @@
 
           <div class="col-lg-12 text-center">
             <!--<a class="btn btn-primary typeform-share button" href="https://gmailsnippets.typeform.com/to/apiAQv" data-mode="popup" target="_blank">Request Beta Access </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>-->
-          <a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/snippets-for-gmail/cgiopcipjkfpcipefmkmnbaghcikpcck" role="button">Add to Chrome ($14.99)</a>
+          <a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/snippets-for-gmail/cgiopcipjkfpcipefmkmnbaghcikpcck" role="button">Add to Chrome (<del>$24.99</del> $14.99)</a>
         </div>
           
           <p class="lead text-center">---</p>
@@ -194,7 +222,7 @@
 
           <div class="col-lg-12 text-center">
             <!--<a class="btn btn-primary typeform-share button" href="https://gmailsnippets.typeform.com/to/apiAQv" data-mode="popup" target="_blank">Request Beta Access </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>-->
-          <a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/snippets-for-gmail/cgiopcipjkfpcipefmkmnbaghcikpcck" role="button">Add to Chrome ($14.99)</a>
+          <a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/snippets-for-gmail/cgiopcipjkfpcipefmkmnbaghcikpcck" role="button">Add to Chrome (<del>$24.99</del> $14.99)</a>
         </div>
         
 
